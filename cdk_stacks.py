@@ -19,7 +19,7 @@ import os
 
 
 app = App()
-env = Environment(account=os.environ["CDK_DEFAULT_ACCOUNT"], region="us-west-2")
+env = Environment(account=os.environ["CDK_DEFAULT_ACCOUNT"], region="us-east-1")
 WebappStack(
     app,
     "PromptChaining-StreamlitWebapp",
